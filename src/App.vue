@@ -1,80 +1,85 @@
 <template>
  
-   
-  <div class="z-6 p-16 bg-white/80 backdrop-blur rounded-lg border-10 space-y-8 max-w-6xl">
-    <a class=" justify-center px-40" style="font-size: 30px ; font-weight: 600;"> A CONFESSIONAL REFORMED BAPTIST CHURCH
-    </a>
-    <p class="text-2xl font-semibold" style="margin: auto;">   </p>  
-      <nav class="flex justify-center space-x-4">
-        <a style="color: rgb(32, 32, 144);" href="index.html" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-400 hover:text-slate-900">Home</a>
-        <a style="color: rgb(32, 32, 144);" href="page2.html"  class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-400 hover:text-slate-900">Contact</a>
-        <a style="color: rgb(32, 32, 144);" href="page3.html" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-400 hover:text-slate-900">About</a>
-        <a style="color: rgb(32, 32, 144);" href="page2.html" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-400 hover:text-slate-900">Help</a>
-        <a style="color: rgb(32, 32, 144);" href="page2.html" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-400 hover:text-slate-900">More</a>
-        <a style="color: rgb(32, 32, 144);" href="page4.html" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-400 hover:text-slate-900">Location</a>
-      </nav>  
-    <p class="text-4xl font-semibold justify-center"></p>
-      <a class=" px-80 p-50px justify-center"></a>
-    <div style="font-size: 25px; background-color: rgb(250, 250, 250);color: rgb(1, 1, 8); border-radius: 7px;" class="block px-3 py-2">
-      <p>U got it my guy noice</p>
-    </div>
-    <p class="text-4xl font-semibold justify-center"></p>
-      <a class=" px-80 p-50px justify-center">Contact Info</a>
-    <div class="z-6 p-16 bg-white/80 backdrop-blur rounded-lg 10 border-2 space-y-8 max-w-5xl">
+   <div>
 
-      <p class="text-4xl font-semibold justify-center"></p>
-      <a class="flex flex-col "> Phone:  (402) 767 0035</a>
-      <a class="flex flex-col "> Email:  robert_ziegler@gmail.com</a>
+
  
-       <img src="" alt="Profile Picture">
+      <nav class="bg-blue-800">
+  <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
+    <div class="relative flex h-16 items-center justify-between">
+      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+        <!-- Mobile menu button-->
+        <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+          <span class="absolute -inset-0.5"></span>
+          <span class="sr-only">Open main menu</span>
+          <!--
+            Icon when menu is closed.
+
+            Menu open: "hidden", Menu closed: "block"
+          -->
+          <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <!--
+            Icon when menu is open.
+
+            Menu open: "block", Menu closed: "hidden"
+          -->
+          <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+        <div class="flex flex-shrink-0 items-center">
+        </div>
+        <div class="hidden sm:ml-6 sm:block">
+          <div class="flex space-x-60">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <router-link to="/" class="bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</router-link>
+            <router-link to="contact" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</router-link>
+            <router-link to="about" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</router-link>
+            <router-link to="more" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">More</router-link>
+             <router-link to="help" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Help</router-link>
+          </div>
+        </div>
+      </div>
+      
     </div>
-</div>
+  </div>
 
-
-
-      <nav class="flex justify-center space-x-4">
-        <button :key="page" v-for="page in pages" @click="selectedPage = page" style="color: rgb(32, 32, 144);" href="index.html" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-400 hover:text-slate-900">{{ page }}</button>
-      </nav>  
-      <div class=" p-8" v-if="selectedPage == 'About'">
-
-      </div>
-      <div v-else-if="selectedPage == 'Contact'">
-       <a href="page3.html"></a>
-      </div>
-      <div v-else-if="selectedPage == 'Home'">
-        Contact Page
-      </div>
-      <div style="" v-else-if="selectedPage == 'Help'">
-        
-      </div>
-      <div v-else-if="selectedPage == 'More'">
-        Contact Page
-      </div> 
-
+  <!-- Mobile menu, show/hide based on menu state. -->
+  
+</nav>
+      <router-view />
+   
+   </div>
   
 </template>
+
+
 <script>
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/65ce73289131ed19d96d4018/1hmn73m20';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+ var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+ s1.async=true;
+ s1.src='https://embed.tawk.to/65ce73289131ed19d96d4018/1hmn73m20';
+ s1.charset='UTF-8';
+ s1.setAttribute('crossorigin','*');
+ s0.parentNode.insertBefore(s1,s0);
+ })();
 
 export default {
   data() {
     return {
       selectedPage: 'about',
-      clearInterval,
+      // clearInterval,
       pages: [
         'Home',
         'About',
         'Contact',
+        'More',
         'Help',
-        'More'
       ]
     }
   },
@@ -82,11 +87,13 @@ export default {
 
   }
 }
-
-
 </script>
 
-<style scoped>
+<style lang="postcss">
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .logo {
   height: 6em;
   padding: 1.5em;
