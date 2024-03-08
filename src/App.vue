@@ -33,7 +33,7 @@
         <div class="flex flex-shrink-0 items-center">
         </div>
         <div class="hidden sm:ml-6 sm:block">
-          <div class="flex space-x-20 p-10">
+          <div class="flex space-x-20 px-80">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <router-link to="/" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Home</router-link>
             <router-link to="contact" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Contact</router-link>
