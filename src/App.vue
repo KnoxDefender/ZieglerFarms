@@ -3,8 +3,7 @@
    <div>
 
 
- 
-      <nav class="bg-gray-500">
+<nav class="bg-gradient-to-r from-gray-500 via-orange-400 to-gray-900 fixed left-0 w-full z-50 top-0 mb-7 p-5 text-lg">
   <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -34,22 +33,18 @@
         <div class="flex flex-shrink-0 items-center">
         </div>
         <div class="hidden sm:ml-6 sm:block">
-          <div class="flex space-x-60">
+          <div class="flex space-x-20 p-10">
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <router-link to="/" class="bg-gray-700 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</router-link>
-            <router-link to="contact" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</router-link>
-            <router-link to="about" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</router-link>
-            <router-link to="more" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">More</router-link>
-             <router-link to="help" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Help</router-link>
+            <router-link to="/" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Home</router-link>
+            <router-link to="contact" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Contact</router-link>
+            <router-link to="about" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">About</router-link>
+            <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">More</router-link>
+            <router-link to="help" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Help</router-link>
           </div>
         </div>
       </div>
-      
     </div>
   </div>
-
-  <!-- Mobile menu, show/hide based on menu state. -->
-  
 </nav>
       <router-view />
    

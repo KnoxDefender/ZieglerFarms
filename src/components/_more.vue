@@ -10,7 +10,6 @@ export default {
 </script>
     <style>
         body {
-            background: url('') no-repeat center center fixed;
             background-size: cover;
             margin: 0;
             padding: 0;
@@ -22,6 +21,6 @@ export default {
             justify-content: center;
             height: 700vh;
             margin: 0;
-            background-color: rgb(149, 150, 150);
+            background-color: rgb(255, 255, 255);
         }
     </style>

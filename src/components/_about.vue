@@ -1,13 +1,12 @@
 <template>
   <div id="app" class="z-10 p-16 bg-white/ backdrop-blur rounded-lg border-2 space-y-8 w-full h-full">
-    <div>Hello Vue</div>
     <div class="scroll-container">
       <img  class="p-10" src="https://breeds.okstate.edu/cattle/site-files/images/german-angus-moiled.jpg" alt="">
-      <img class="p-10" src="" alt="Big Red!">
-      <img class="p-10" src="https://www.pinkgorillaevents.com/wp-content/uploads/2020/10/cow3.png" alt="Big Red!">
-      <img class="p-10" src="https://images.squarespace-cdn.com/content/v1/5a51c81f4c326dee8c3fa76c/1516441855852-67W3Q6X22HUV56FS320O/Casey-Meek-tweeked-1-of-1.jpg" alt="Big Red!">
+      <img class="p-10" src="https://i.ibb.co/LdmK6NN/206-CBBD3-5608-41-A1-9-B6-D-A01-CA2985-B64.jpg" alt="Big Red!">
+      <img class="p-10" src="https://i.ibb.co/Dbkx4Jv/275-FD28-C-1523-490-D-BCE6-F51000-E66-FD8.jpg" alt="Big Red!">
+      <img class="p-10" src="https://i.ibb.co/JsnsxCS/38-DF599-B-4129-40-D4-808-C-7-F08-BE2-E7451.jpg" alt="Big Red!">
+      <img class="p-10" src="https://i.ibb.co/vPQ5FN6/98520-F5-D-F05-A-4-AA8-9217-58-C40-F24-BDFE-1-201-a.jpg" alt="Big Red!">
     </div>
-    Hello
   </div>
 </template>
 
@@ -20,7 +19,7 @@
   display: flex;
   overflow-x: auto; /* or overflow-x: scroll; */
   white-space: nowrap;
-  max-width: 500px; /* Adjust the value to set the maximum width of the container */
+  max-width: 700px; /* Adjust the value to set the maximum width of the container */
   margin: 0 auto; /* Center the container */
 }
 
