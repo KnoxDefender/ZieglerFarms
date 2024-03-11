@@ -3,7 +3,7 @@
    <div>
 
 
-<nav class="bg-gradient-to-r from-gray-500 via-orange-400 to-gray-900 fixed left-0 w-full z-50 top-0 mb-7 p-5 text-lg">
+<nav class="bg-gradient-to-r from-gray-500 via-blue-400 to-gray-700 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg">
   <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -38,7 +38,7 @@
             <router-link to="/" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Home</router-link>
             <router-link to="contact" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Contact</router-link>
             <router-link to="about" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">About</router-link>
-            <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">More</router-link>
+            <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Bulls</router-link>
             <router-link to="help" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Help</router-link>
           </div>
         </div>
