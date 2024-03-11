@@ -14,6 +14,6 @@
   </div>
 </template>
 
-<style scoped>
+<style scoped> 
 /* Add any specific component styles here */
 </style>

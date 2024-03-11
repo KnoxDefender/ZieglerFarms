@@ -19,21 +19,19 @@
                 Icon when the menu is open.
                 Menu open: "block", Menu closed: "hidden"
               -->
-              <svg v-else class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <svg v-else class=" h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
           </div>
 
-          <div v-if="navOpen" class="px-8;sm:hidden p-4 rounded border">
-          <router-link to="contact">Contact</router-link>
-           <router-link to="about">About</router-link>
-           <router-link to="more">Bulls</router-link>
-
-
-          </div>
-
-
+          <div v-if="navOpen" class="px-8 sm:hidden p-4 rounded border absolute right-0 z-10 mt-2 w-48 origin-top bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/contact" role="menuitem" tabindex="-1">Contact</router-link>
+  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/about" role="menuitem" tabindex="-1" id="user-menu-item-0">About</router-link>
+  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/more" role="menuitem" tabindex="-1" id="user-menu-item-1">Bulls</router-link>
+  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/help" role="menuitem" tabindex="-1" id="user-menu-item-2">Help</router-link>
+  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/" role="menuitem" tabindex="-1" id="user-menu-item-3">Home</router-link>
+</div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
             </div>
