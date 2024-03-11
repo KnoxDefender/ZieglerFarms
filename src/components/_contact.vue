@@ -3,6 +3,7 @@
     <div id="app" class=" justify-center z-10 p-16 bg-white/30 backdrop-blur rounded-lg border-2 space-y-8 w-full h-full ">
 
       <div class="profile-section">
+        <img class=" profile-picture" src="https://i.ibb.co/q1j7pY6/393-D52-C9-F471-42-DF-AD0-F-483-A5-CE492-D0.jpg" alt="Profile Picture">
         <h1>Contact Info</h1>
         <ul>
           <li>Robert Ziegler</li>
