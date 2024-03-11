@@ -2,9 +2,8 @@
   <div id="app" class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 to-gray-800 text-white p-8">
     <div class="z-10 bg-gray-800/50 backdrop-blur-md rounded-lg border-4 border-white shadow-2xl p-8 space-y-6 text-center">
       <h1 class="text-5xl font-extrabold text-blue-500">Ziegler Farms Bulls!</h1>
-      <p class="text-lg text-gray-300">Scroll through images of our Piedmontese bulls!</p>
+      <p class="text-lg text-gray-300">Scroll through images of our Piedmontese Bulls!</p>
       <div class="scroll-container">
-        <img class="p-4 max-h-96 object-cover rounded-lg border-2 border-blue-500" src="https://breeds.okstate.edu/cattle/site-files/images/german-angus-moiled.jpg" alt="Futuristic Image 1">
         <img class="p-4 max-h-96 object-cover rounded-lg border-2 border-blue-500" src="https://i.ibb.co/LdmK6NN/206-CBBD3-5608-41-A1-9-B6-D-A01-CA2985-B64.jpg" alt="Futuristic Image 2">
         <img class="p-4 max-h-96 object-cover rounded-lg border-2 border-blue-500" src="https://i.ibb.co/Dbkx4Jv/275-FD28-C-1523-490-D-BCE6-F51000-E66-FD8.jpg" alt="Futuristic Image 3">
         <img class="p-4 max-h-96 object-cover rounded-lg border-2 border-blue-500" src="https://i.ibb.co/JsnsxCS/38-DF599-B-4129-40-D4-808-C-7-F08-BE2-E7451.jpg" alt="Futuristic Image 4">
