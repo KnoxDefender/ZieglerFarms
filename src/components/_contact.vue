@@ -32,7 +32,6 @@ export default {
 
 <style>
 body {
-  background: url('https://encycolorpedia.com/192130.png') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -61,12 +60,4 @@ body {
 }
 
 /* Fun styling */
-#app {
-  transition: background 0.5s ease-in-out;
-}
-
-#app:hover {
-  background: url('https://encycolorpedia.com/E9B000.png') no-repeat center center fixed;
-  background-size: cover;
-}
 </style>

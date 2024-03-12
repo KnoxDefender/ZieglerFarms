@@ -27,7 +27,6 @@ body {
 
 /* Additional Styling */
 #app {
-  background-size: cover;
 }
 
 </style>

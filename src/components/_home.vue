@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r p-8 max-w-20px">
+  <div id="app" class="flex flex-col items-center justify-center min-h-screen p-8  max-w-20px">
     <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center">
       <h1 class="text-5xl font-extrabold text-blue-600">Ziegler Farms!</h1>
       <p class="text-lg text-gray-300">Nestled in the heart of Nebraska, Ziegler Farms stands as a proud symbol of agricultural resilience, spanning four generations of steadfast commitment to the fertile plains of the region. With roots deeply embedded in the rich soil of Nebraska, the Ziegler family has cultivated not just crops but a legacy of sustainable farming practices and the responsible stewardship of their cherished cattle. This enduring connection to the land and the thriving tradition of cattle ranching underscores Ziegler Farms' role as a beacon of Nebraska's agricultural heritage, blending the past with a sustainable future.</p>
@@ -17,6 +17,7 @@
 <script>
 export default {
 
+  
 }
 </script>
 

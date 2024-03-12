@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 to-gray-800 text-white p-8">
+  <div id="app" class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 to-gray-800 text-white p-8 ">
     <div class="z-10 bg-gray-800/50 backdrop-blur-md rounded-lg border-4 border-white shadow-2xl p-8 space-y-6 text-center">
       <h1 class="text-5xl font-extrabold text-blue-500">Ziegler Farms Bulls!</h1>
       <p class="text-lg text-gray-300">Scroll through images of our Piedmontese Bulls!</p>
