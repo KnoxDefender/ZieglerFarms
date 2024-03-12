@@ -25,7 +25,7 @@
             </button>
           </div>
 
-          <div v-if="navOpen" class="px-8 sm:hidden p-4 rounded border absolute right-0 z-10 mt-2 w-48 origin-top bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+          <div v-if="navOpen" class="mt-56 px-8 sm:hidden p-4 rounded border absolute left-0 z-10 mt-2 w-48 origin-top bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/contact" role="menuitem" tabindex="-1">Contact</router-link>
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/about" role="menuitem" tabindex="-1" id="user-menu-item-0">About</router-link>
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/more" role="menuitem" tabindex="-1" id="user-menu-item-1">Bulls</router-link>
