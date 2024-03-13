@@ -1,6 +1,6 @@
 <template>
   <div class=" bg-white dark:bg-black" >
-    <nav id="navbar" class=" bg-gradient-to-r from-blue-800 via-gray-900 to-blue-800 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+    <nav id="navbar" class=" bg-gradient-to-r from-blue-700 via-gray-800 to-blue-700 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
