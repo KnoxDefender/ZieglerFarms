@@ -6,12 +6,14 @@ import Contact from './components/_contact.vue'
 import About from './components/_about.vue'
 import More from './components/_more.vue'
 import Help from './components/_help.vue'
+import Animals from './components/_animals.vue'
 const routes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
     { path: '/contact', component: Contact },
     { path: '/more', component: More },
-    { path: '/help', component: Help }
+    { path: '/help', component: Help },
+    { path: '/animals', component: Animals },
 ]
 
 
