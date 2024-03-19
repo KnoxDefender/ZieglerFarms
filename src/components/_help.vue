@@ -2,7 +2,7 @@
   <div id="app" class="rounded-2xl flex flex-col items-center justify-center h-screen bg-gradient-to-r">
     <div class="z-10 p-12 bg-gray-800/50 backdrop-blur-md rounded-lg border-4 border-white shadow-2xl space-y-6 text-center">
       <h1 class="text-6xl font-extrabold text-blue-500">Any <span class="text-green-500">Questions?</span></h1>
-      <a href="https://chat.openai.com/" class="px-8 py-3 bg-blue-500 rounded-full text-white font-semibold hover:bg-blue-600 transition duration-300 hover:shadow-xl mt-6 inline-block">
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="px-8 py-3 bg-blue-500 rounded-full text-white font-semibold hover:bg-blue-600 transition duration-300 hover:shadow-xl mt-6 inline-block">
         Help?
       </a>
     </div>

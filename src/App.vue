@@ -2,7 +2,7 @@
 
   <div class=" bg-white dark:bg-black" >
     
-    <nav id="navbar" class=" bg-gradient-to-r from-blue-700 via-gray-800 to-blue-700 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+    <nav id="navbar" class=" bg-gradient-to-r from-green-700 via-gray-800 to-green-700 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -31,7 +31,7 @@
             
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/contact" role="menuitem" tabindex="-1">Contact</router-link>
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/about" role="menuitem" tabindex="-1" id="user-menu-item-0">About</router-link>
-  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/more" role="menuitem" tabindex="-1" id="user-menu-item-1">Animals</router-link>
+  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/more" role="menuitem" tabindex="-1" id="user-menu-item-1">More</router-link>
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/help" role="menuitem" tabindex="-1" id="user-menu-item-2">Help</router-link>
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/" role="menuitem" tabindex="-1" id="user-menu-item-3">Home</router-link>
 </div>
@@ -44,7 +44,7 @@
                 <router-link to="/" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Home</router-link>
                 <router-link to="contact" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Contact</router-link>
                 <router-link to="about" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">About</router-link>
-                <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Animals</router-link>
+                <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">More</router-link>
                 <router-link to="help" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Help</router-link>
               </div>
             </div>
@@ -52,7 +52,7 @@
         </div>
       </div>
     </nav>
-   <div class="pt-16 bg-white dark:bg-black"> <router-view  /></div>
+   <div class="pt-16 bg-white dark:bg-black"><router-view  /></div>
   </div>
   
 </template>
@@ -63,7 +63,7 @@ export default {
     return {
       navOpen: false,
       selectedPage: 'about',
-      pages: ['Home', 'About', 'Contact', 'More', 'Help','Animals' ]
+      pages: ['Home', 'About', 'Contact', 'More', 'Help', ]
     };
   },
   mounted() {
