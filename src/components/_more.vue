@@ -1,6 +1,6 @@
 <template>
-  <div id="app" class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r  text-white p-8 max-w-1-0 max-w bg-white dark:bg-black">
-    <div class="z-10  backdrop-blur-md rounded-lg border-4 border-white shadow-2xl p-8 space-y-6 text-center">
+  <div id="app" class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r  text-white p-8 max-w-1-0 max-w">
+    <div class="z-10  backdrop-blur-md rounded-lg border-4 border-white shadow-2xl p-8 space-y-6 text-center bg-green-800 dark:bg-green-900">
       <h1 class="text-5xl font-extrabold text-blue-500">Ziegler Farms Bulls!</h1>
       <p class="text-lg text-blue-500">Scroll through images of our Piedmontese Bulls!</p>
       <div class="scroll-container">

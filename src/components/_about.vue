@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flex min-h-screen text-white p-8">
+  <div id="app" class="flex min-h-screen text-white p-8 max-h">
     <!-- Sidebar -->
     <aside class="flex flex-col bg-gray-900 w-64 rounded-3xl">
       <!-- Sidebar content -->

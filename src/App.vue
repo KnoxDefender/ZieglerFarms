@@ -1,11 +1,13 @@
 <template>
 
-  <div class=" bg-white dark:bg-black" >
+  <div class="" >
     
-    <nav id="navbar" class=" bg-gradient-to-r from-green-700 via-gray-800 to-green-700 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+    <nav id="navbar" class=" bg-gradient-to-r from-green-500 via-gray-600 to-green-600 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
+          <div class="text-white dark:text-black text-lg sm:text-xl md:text-3xl"><strong>ZF</strong></div>
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+           
             <!-- Mobile menu button-->
             <button @click="navOpen = !navOpen" type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
               <span class="absolute -inset-0.5"></span>
@@ -52,7 +54,7 @@
         </div>
       </div>
     </nav>
-   <div class="pt-16 bg-white dark:bg-black"><router-view  /></div>
+   <div class="pt-16 bg-gray-400 dark:bg-gray-800" style="background-size:cover;"><router-view  /></div>
   </div>
   
 </template>
@@ -67,6 +69,26 @@ export default {
     };
   },
   mounted() {
+    
+    let prevScrollpos = window.pageYOffset;
+    const navbar = document.getElementById('navbar');
+    window.onscroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        // Scroll up: Show the navbar
+        navbar.style.transform = 'translateY(0)';
+      } else {
+        // Scroll down: Hide the navbar
+        navbar.style.transform = `translateY(-${navbar.offsetHeight / 5}px)`;
+      }
+      prevScrollpos = currentScrollPos;
+    };
+    // Event listener to close navbar when clicked outside
+    document.addEventListener('click', this.closeNavbarOnClickOutside);
+  },
+  beforeDestroy() {
+    // Remove event listener to avoid memory leaks
+    document.removeEventListener('click', this.closeNavbarOnClickOutside);
     let prevScrollpos = window.pageYOffset;
     const navbar = document.getElementById('navbar');
 
@@ -85,6 +107,7 @@ export default {
     };
   }
 };
+
 </script>
 
 <style lang="postcss">
@@ -106,4 +129,6 @@ export default {
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+
+
 </style>
