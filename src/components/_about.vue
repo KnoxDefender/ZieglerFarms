@@ -9,16 +9,16 @@
       <nav class="flex-1">
         <ul class="py-4">
           <li class="px-6 py-2 hover:bg-gray-800">
-               <a href="_animals.vue" class="block">Gallery</a>        
+           <a href="_cows.vue"> cows</a>       
           </li>
           <li class="px-6 py-2 hover:bg-gray-800">
-            <a href="#" class="block">Interplanetary Travel</a>
+            <a href="#" class="block">Cows</a>
           </li>
           <li class="px-6 py-2 hover:bg-gray-800">
-            <a href="#" class="block">Mars Colonization</a>
+            <a href="#" class="block">Farming</a>
           </li>
           <li class="px-6 py-2 hover:bg-gray-800">
-            <a href="#" class="block">Solar Power</a>
+            <a href="#" class="block">The Ziegler Family</a>
           </li>
         </ul>
       </nav>
@@ -38,7 +38,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
           <!-- Your main content grid or other content goes here -->
         </div>
-        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwDlPSxPqSgTCBjXwNPzCXXznPZlDfhGcDWVvxqjPqCdqcKrmKCCtjZNlDRnKvRLtBrL" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue bg-gradient-to-r from-green-700 via-green-500  to-green-800 transition duration-300 mt-4">Get In Touch</a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwDlPSxPqSgTCBjXwNPzCXXznPZlDfhGcDWVvxqjPqCdqcKrmKCCtjZNlDRnKvRLtBrL" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue bg-gradient-to-r from-green-700 via-green-500  to-green-800 transition duration-300 mt-4">Contact</a>
       </div>
     </main> 
     

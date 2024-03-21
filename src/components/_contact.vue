@@ -6,8 +6,10 @@
         <h1 class="text-4xl font-bold text-indigo-500 mb-4">Robert Ziegler</h1>
         <ul class="text-lg text-blue-500 list-disc list-inside">
           <li class="mb-2">Robert Ziegler</li>
-          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnrLGnVnMmNsqSsRdkzLQJwTqDGWKbWsTFRzpWGckNcjqbSJHLqTdwQpSvHgMvJPgSgLq" class="mb-2; hover:underline ">Email: robert_ziegler@hotmail.com</a>
-          <li>Phone: (402 460 8812)</li>
+          <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnrLGnVnMmNsqSsRdkzLQJwTqDGWKbWsTFRzpWGckNcjqbSJHLqTdwQpSvHgMvJPgSgLq" class="mb-2; hover:underline ">Email: robert_ziegler@hotmail.com</a>
+         </li> 
+         <li><a href="tel:2705272957" class="hover:underline">Phone: (402 460 8812)</a>
+        </li>
         </ul>
       </div>
       <div class="profile-section">
@@ -15,8 +17,8 @@
         <h1 class="text-4xl font-bold text-indigo-500 mb-4">Scott Ziegler</h1>
         <ul class="text-lg text-blue-500 list-disc list-inside">
           <li class="mb-2">Scott Ziegler</li>
-          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnrLGnVnMmNsqSsRdkzLQJwTqDGWKbWsTFRzpWGckNcjqbSJHLqTdwQpSvHgMvJPgSgLq" class="mb-2 hover:underline">Email: robert_ziegler@hotmail.com</a>
-          <li>Phone: (402 469-0764)</li>
+          <a href="mailto:robert_ziegler@hotmail.com”?subject=Contact Solid Rock"></a>
+          <a href="tel:2705272957" class="hover:underline">Phone: (402 469-0764)</a>
         </ul>
       </div>
             <div class="profile-section">
@@ -24,9 +26,9 @@
         <h1 class="text-4xl font-bold text-indigo-500 mb-4">Knox Ziegler</h1>
         <ul class="text-lg text-blue-500 list-disc list-inside">
           <li class="mb-2">Web Developer/Designer</li>
-          <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnrLGnVnMmNsqSsRdkzLQJwTqDGWKbWsTFRzpWGckNcjqbSJHLqTdwQpSvHgMvJPgSgLq" class="mb-2 hover:underline">Email:knoxdefenderbender@gmail.com</a>
-         <li></li> 
-      <a href="https://github.com/KnoxDefender" class="px-8 py-3 bg-blue-500 rounded-full text-white font-semibold hover:bg-blue-600 transition duration-300 hover:shadow-xl mt-6 inline-block">
+         <li> <a class="hover:underline" href="knoxdefenderbender@gmail.com”?subject=Contact Solid Rock">Email:knoxdefenderbender@gmail.com</a>
+         </li> 
+      <a href="https://github.com/KnoxDefender" class="px-8 py-3 bg-blue-500 rounded-full text-white font-semibold hover:bg-blue-800 transition duration-300 hover:shadow-xl mt-6 inline-block">
       GitHub
       </a>
         </ul>
@@ -49,7 +51,6 @@ body {
   display: flex;
   align-items: flex-start; /* Changed align-items property value */
   justify-content: center;
-  height: 700vh;
 }
 
 .profile-picture {
