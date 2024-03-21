@@ -3,7 +3,7 @@
     <!-- Sidebar -->
     <aside class="flex flex-col bg-gray-900 w-64 rounded-3xl">
       <!-- Sidebar content -->
-      <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-green-900 to-green-400">
+      <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
         <h1 class="text-2xl font-bold">Ziegler Farms Bulls</h1>
       </div>
       <nav class="flex-1">
@@ -23,7 +23,7 @@
         </ul>
       </nav>
       <!-- Contact Info -->
-      <div class="flex items-center justify-center h-16 bg-gradient-to-r from-green-500 to-green-900 rounded-b-3xl p-8 ">
+      <div class="flex items-center justify-center h-16 bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800  rounded-b-3xl p-8 ">
         <p class="text-sm">Contact: robert_ziegler@hotmail.com</p>
       </div>
     </aside>
@@ -31,7 +31,7 @@
     <!-- Main Content -->
     <main class="flex-1">
       <div class="flex flex-col items-center justify-center p-8">
-        <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-gray-100 dark:bg-gray-700">
+        <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-gray-100 dark:bg-gray-800">
           <h1 class="text-5xl font-extrabold text-gray-500 dark:text-gray-300">Ziegler Farms Bulls</h1>
           <p class="text-lg text-gray-500 dark:text-gray-200">Our Bulls aren't just any Bulls, They're Piedmontese Bulls. What are Piedmontese Bulls? Piedmontese is a type of Cattle originating in Italy. Piedmontese cattle are known for their unique muscular build and double-muscled appearance, which is a result of a natural genetic mutation called "double muscling" or "myostatin gene mutation." This mutation causes increased muscle development and reduced fat content in the animal's body. When Castrated these steers make for some really good steak!
           </p>

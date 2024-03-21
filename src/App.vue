@@ -56,7 +56,7 @@
         </div>
       </div>
     </nav>
-   <div class="pt-16 bg-gray-400 dark:bg-gray-800"><router-view  /></div>
+   <div class="pt-16 bg-gray-400 dark:bg-gray-700"><router-view  /></div>
   </div>
   
 </template>
