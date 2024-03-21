@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="flex flex-col items-center justify-center min-h-screen p-8  max-w-10px  ">
     
-    <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center  bg-gray-100 dark:bg-gray-700">
+    <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center  bg-sky-100 dark:bg-sky-900">
       <h1 class="text-5xl font-extrabold text-gray-400 dark:text-gray-300 ">Ziegler Farms Cattle</h1>
       <p class="text-lg text-gray-500 dark:text-gray-200">Nestled in the heart of Nebraska, Ziegler Farms stands as a proud symbol of agricultural resilience, spanning four generations of steadfast commitment to the fertile plains of the region. With roots deeply embedded in the rich soil of Nebraska, the Ziegler family has cultivated not just crops but a legacy of sustainable farming practices and the responsible stewardship of their cherished cattle. This enduring connection to the land and the thriving tradition of cattle ranching underscores Ziegler Farms' role as a beacon of Nebraska's agricultural heritage, blending the past with a sustainable future.</p>
       <div class="gallery-container flex flex-wrap justify-center">
@@ -17,7 +17,7 @@
   </div>
   <div id="app" class="flex flex-col items-center justify-center min-h-screen p-8  max-w-10px  ">
     
-    <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center   bg-gray-100 dark:bg-gray-700">
+    <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center   bg-gray-100 dark:bg-sky-900">
       <h1 class="text-5xl font-extrabold text-gray-400 dark:text-gray-300 ">Ziegler Farming</h1>
       <p class="text-lg text-gray-400 dark:text-gray-200">We take pride, not only in our cattle, but in our crops. We grow Corn, Soy Beans, Wheat, and Rie. </p>
       <div class="gallery-container flex flex-wrap justify-center">

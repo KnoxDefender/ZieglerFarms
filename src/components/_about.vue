@@ -1,23 +1,23 @@
 <template>
   <div id="app" class="flex min-h-screen text-white p-8 max-h">
     <!-- Sidebar -->
-    <aside class="flex flex-col bg-gray-900 w-64 rounded-3xl">
+    <aside class="flex flex-col bg-sky-100 dark:bg-sky-900 w-64 rounded-3xl">
       <!-- Sidebar content -->
       <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
         <h1 class="text-2xl font-bold">Ziegler Farms</h1>
       </div>
       <nav class="flex-1">
         <ul class="py-4">
-          <li class="px-6 py-2 hover:bg-gray-800">
+          <li class="px-6 py-2 hover:bg-red-800  text-sky-900 dark:text-sky-500 border-gray-900 rounded-lg">
            <a class="block" href="#">Farming</a>       
           </li>
-          <li class="px-6 py-2 hover:bg-gray-800">
+          <li class="px-6 py-2 hover:bg-red-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
             <a href="#cows" class="block">Cows</a>
           </li>
-          <li class="px-6 py-2 hover:bg-gray-800">
+          <li class="px-6 py-2 hover:bg-red-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
             <a href="#bulls" class="block">Bulls</a>
           </li>
-          <li class="px-6 py-2 hover:bg-gray-800">
+          <li class="px-6 py-2 hover:bg-red-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
             <a href="#" class="block">The Ziegler Family</a>
           </li>
         </ul>
