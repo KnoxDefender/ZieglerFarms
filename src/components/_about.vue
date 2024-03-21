@@ -9,13 +9,13 @@
       <nav class="flex-1">
         <ul class="py-4">
           <li class="px-6 py-2 hover:bg-gray-800">
-           <a href="_cows.vue"> cows</a>       
+           <a class="block" href="#">Farming</a>       
           </li>
           <li class="px-6 py-2 hover:bg-gray-800">
-            <a href="#" class="block">Cows</a>
+            <a href="#cows" class="block">Cows</a>
           </li>
           <li class="px-6 py-2 hover:bg-gray-800">
-            <a href="#" class="block">Farming</a>
+            <a href="#bulls" class="block">Bulls</a>
           </li>
           <li class="px-6 py-2 hover:bg-gray-800">
             <a href="#" class="block">The Ziegler Family</a>
@@ -35,22 +35,23 @@
         <p class="text-base text-green-600 leading-relaxed">
           The Ziegler family, with nine children, tends to their Nebraska farm with dedication and a love for the land. They raise cows, embodying a commitment to sustainable farming and creating a harmonious homestead. Rooted in hard work and resilience, the Zieglers contribute to Nebraska's agricultural legacy!
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-          <!-- Your main content grid or other content goes here -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- Gallery of Images -->
+          <img src="https://i.ibb.co/LdmK6NN/306-CBBD3-5608-41-A1-9-B6-D-A01-CA2985-B64.jpg" alt="" class="gallery-image">
+          <img src="https://i.ibb.co/Dbkx4Jv/275-FD28-C-1523-490-D-BCE6-F51000-E66-FD8.jpg" alt="" class="gallery-image">
+          <img src="https://i.ibb.co/JsnsxCS/38-DF599-B-4129-40-D4-808-C-7-F08-BE2-E7451.jpg" alt="" class="gallery-image">
         </div>
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwDlPSxPqSgTCBjXwNPzCXXznPZlDfhGcDWVvxqjPqCdqcKrmKCCtjZNlDRnKvRLtBrL" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue bg-gradient-to-r from-green-700 via-green-500  to-green-800 transition duration-300 mt-4">Contact</a>
       </div>
     </main> 
-    
-          </div>
-
-  
-
-
-
-   
+  </div>
 </template>
 
 <style scoped>
-/* Add any additional styles here */
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px; /* Add border-radius to images for a nicer look */
+}
 </style>

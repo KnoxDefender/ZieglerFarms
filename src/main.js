@@ -7,6 +7,7 @@ import About from './components/_about.vue'
 import More from './components/_more.vue'
 import Help from './components/_help.vue'
 import Cows from './components/_cows.vue'
+import Bulls  from './components/_bulls.vue'
 const routes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
@@ -14,6 +15,7 @@ const routes = [
     { path: '/more', component: More },
     { path: '/help', component: Help },
     { path: '/cows', component: Cows },
+    { path: '/bulls', component: Bulls },
 ]
 
 

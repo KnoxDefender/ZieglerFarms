@@ -36,6 +36,7 @@
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/more" role="menuitem" tabindex="-1" id="user-menu-item-1">More</router-link>
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/help" role="menuitem" tabindex="-1" id="user-menu-item-2">Help</router-link>
   <router-link class="block px-4 py-2 text-sm text-gray-700" to="/" role="menuitem" tabindex="-1" id="user-menu-item-3">Home</router-link>
+
 </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
@@ -48,6 +49,7 @@
                 <router-link to="about" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">About</router-link>
                 <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">More</router-link>
                 <router-link to="help" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Help</router-link>
+
               </div>
             </div>
           </div>
@@ -65,7 +67,7 @@ export default {
     return {
       navOpen: false,
       selectedPage: 'about',
-      pages: ['Home', 'About', 'Contact', 'More', 'Help', ]
+      pages: ['Home', 'About', 'Contact', 'More', 'Help','Cows', ]
     };
   },
   mounted() {
