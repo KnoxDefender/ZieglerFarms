@@ -8,17 +8,17 @@
       </div>
       <nav class="flex-1">
         <ul class="py-4">
-          <li class="px-6 py-2 hover:bg-red-800  text-sky-900 dark:text-sky-500 border-gray-900 rounded-lg">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500">
            <a class="block" href="#farming">Farming</a>       
           </li>
-          <li class="px-6 py-2 hover:bg-red-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500">
             <a href="#cows" class="block">Cows</a>
           </li>
-          <li class="px-6 py-2 hover:bg-red-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500">
             <a href="#bulls" class="block">Bulls</a>
           </li>
-          <li class="px-6 py-2 hover:bg-red-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
-            <a href="#" class="block">The Ziegler Family</a>
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500">
+            <a href="#family" class="block">The Ziegler Family</a>
           </li>
         </ul>
       </nav>

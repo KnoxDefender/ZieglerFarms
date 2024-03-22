@@ -4,20 +4,20 @@
     <aside class="flex flex-col bg-sky-100 dark:bg-sky-900 w-64 rounded-3xl">
       <!-- Sidebar content -->
       <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
-        <h1 class="text-2xl font-bold">Ziegler Farms</h1>
+        <h1 class="text-2xl font-bold">Ziegler Bulls</h1>
       </div>
       <nav class="flex-1">
         <ul class="py-4">
-          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 border-2 border-gray-900 rounded-lg hover:text-sky-200">
-           <a class="block" href="#">Farming</a>       
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 border-2    hover:text-sky-200">
+           <a class="block" href="#farming">Farming</a>       
           </li>
-          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg hover:text-sky-200">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 rounded-lg hover:text-sky-200">
             <a href="#cows" class="block">Cows</a>
           </li>
-          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg hover:text-sky-200">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500     hover:text-sky-200">
             <a href="#bulls" class="block">Bulls</a>
           </li>
-          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg hover:text-sky-200">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500     hover:text-sky-200">
             <a href="#" class="block">The Ziegler Family</a>
           </li>
         </ul>

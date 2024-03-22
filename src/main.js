@@ -9,6 +9,8 @@ import Help from './components/_help.vue'
 import Cows from './components/_cows.vue'
 import Bulls  from './components/_bulls.vue'
 import Farming  from './components/_farming.vue'
+import Family  from './components/_family.vue'
+
 const routes = [
     { path: '/', component: Home },
     { path: '/about', component: About },
@@ -18,6 +20,8 @@ const routes = [
     { path: '/cows', component: Cows },
     { path: '/bulls', component: Bulls },
     { path: '/farming', component: Farming },
+    { path: '/family', component: Family },
+
 ]
 
 
