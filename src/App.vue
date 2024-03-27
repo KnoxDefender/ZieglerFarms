@@ -2,15 +2,15 @@
 
   <div class="" >
     
-    <nav id="navbar" class=" bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+    <nav id="navbar" class=" bg-gradient-to-r from-sky-700 via-sky-600 to-sky-900 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <div class="text-white dark:text-sky-700 text-lg sm:text-xl md:text-3xl"><strong>DZ</strong></div>
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
            
             <!-- Mobile menu button-->
-            <button @click="navOpen = !navOpen" type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-green-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
-              <span class="absolute -inset-0.5"></span>
+            <button @click="navOpen = !navOpen" type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-sky-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+              <span class="absolute -inset-1.5"></span>
               <span class="sr-only">Open main menu</span>
               <!--
                 Icon when the menu is closed.
@@ -29,13 +29,13 @@
             </button>
           </div>
 
-          <div v-if="navOpen" class="mt-56 px-8 sm:hidden p-4 rounded border absolute left-0 z-10 mt-2 w-48 origin-top bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+          <div v-if="navOpen" class=" px-8 sm:hidden p-4 rounded border absolute left-0 z-10 mt-2 w-48 origin-top bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
             
-  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/contact" role="menuitem" tabindex="-1">Contact</router-link>
-  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/about" role="menuitem" tabindex="-1" id="user-menu-item-0">About</router-link>
-  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/more" role="menuitem" tabindex="-1" id="user-menu-item-1">More</router-link>
-  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/help" role="menuitem" tabindex="-1" id="user-menu-item-2">Help</router-link>
-  <router-link class="block px-4 py-2 text-sm text-gray-700" to="/" role="menuitem" tabindex="-1" id="user-menu-item-3">Home</router-link>
+  <router-link class="block px-4 py-2 text-sm text-sky-900" to="/contact" role="menuitem" tabindex="-1">Contact</router-link>
+  <router-link class="block px-4 py-2 text-sm text-sky-900" to="/about" role="menuitem" tabindex="-1" id="user-menu-item-0">About</router-link>
+  <router-link class="block px-4 py-2 text-sm text-sky-900" to="/more" role="menuitem" tabindex="-1" id="user-menu-item-1">More</router-link>
+  <router-link class="block px-4 py-2 text-sm text-sky-900" to="/help" role="menuitem" tabindex="-1" id="user-menu-item-2">Help</router-link>
+  <router-link class="block px-4 py-2 text-sm text-sky-900" to="/" role="menuitem" tabindex="-1" id="user-menu-item-3">Home</router-link>
 
 </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
@@ -44,11 +44,11 @@
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-20 px-80 ">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <router-link to="/" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Home</router-link>
-                <router-link to="contact" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Contact</router-link>
-                <router-link to="about" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">About</router-link>
-                <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">More</router-link>
-                <router-link to="help" class="text-gray-300 hover:bg-gradient-to-r from-gray-700 via-gray-400 to-gray-600 rounded-md px-3 py-2 text-sm font-medium ">Help</router-link>
+                <router-link to="/" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium ">Home</router-link>
+                <router-link to="contact" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium ">Contact</router-link>
+                <router-link to="about" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium ">About</router-link>
+                <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium ">More</router-link>
+                <router-link to="help" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-200">Help</router-link>
 
               </div>
             </div>
@@ -67,7 +67,7 @@ export default {
     return {
       navOpen: false,
       selectedPage: 'about',
-      pages: ['Home', 'About', 'Contact', 'More', 'Help','Cows', ]
+      pages: ['Home', 'About', 'Contact', 'More', 'Help','Cows'],
     };
   },
   mounted() {

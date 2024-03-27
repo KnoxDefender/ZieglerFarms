@@ -1,69 +1,62 @@
-<template class=" " >
-  <div  class=" ">
-    <div id="app" class="justify-center z-10 p-16 rounded-lg border-2 space-y-8 w-full h-full min-h-screen bg-gradient-to-r; ">
-      <div class="profile-section">
-        <img class="profile-picture" src="https://i.ibb.co/FhsZhGw/Screen-Shot-2024-03-11-at-3-45-43-PM.png" alt="Profile Picture">
-        <h1 class="text-4xl font-bold text-indigo-500 mb-4">Robert Ziegler</h1>
-        <ul class="text-lg text-blue-500 list-disc list-inside">
-          <li class="mb-2">Robert Ziegler</li>
-          <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvnrLGnVnMmNsqSsRdkzLQJwTqDGWKbWsTFRzpWGckNcjqbSJHLqTdwQpSvHgMvJPgSgLq" class="mb-2; hover:underline ">Email: robert_ziegler@hotmail.com</a>
-         </li> 
-         <li><a href="tel:2705272957" class="hover:underline">Phone: (402 460 8812)</a>
-        </li>
-        </ul>
+<template>
+
+  <div id="app" class="flex min-h-screen text-white p-8 max-h">
+    <!-- Sidebar -->
+    <aside class="flex flex-col bg-sky-100 dark:bg-sky-900 w-64 rounded-3xl">
+      <!-- Sidebar content -->
+      <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
+        <img width="90" height="90" src="https://img.icons8.com/3d-fluency/94/user-male-circle.png" alt="user-male-circle"/>
+        <h1 class="text-2xl font-bold">Ziegler Farming</h1>
       </div>
-      <div class="profile-section">
-        <img class="profile-picture" src="https://i.ibb.co/GM7KqGf/Screen-Shot-2024-03-11-at-3-48-57-PM.png" alt="Profile Picture">
-        <h1 class="text-4xl font-bold text-indigo-500 mb-4">Scott Ziegler</h1>
-        <ul class="text-lg text-blue-500 list-disc list-inside">
-          <li class="mb-2">Scott Ziegler</li>
-          <a href="mailto:robert_ziegler@hotmail.com”?subject=Contact Solid Rock"></a>
-          <a href="tel:2705272957" class="hover:underline">Phone: (402 469-0764)</a>
+      <nav class="flex-1">
+        <ul class="py-4">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 hover:text-sky-200">
+           <a class="block" href="#robert">Robert Ziegler</a>       
+          </li>
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 hover:text-sky-200">
+            <a href="#scott" class="block">Scott Ziegler</a>
+          </li>
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 hover:text-sky-200">
+            <a href="#knox" class="block">Developer</a>
+          </li>
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 hover:text-sky-200">
+            <a href="#family" class="block">The Ziegler Family</a>
+          </li>
         </ul>
+      </nav>
+      <!-- Contact Info -->
+      <div class="flex items-center justify-center h-16 bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800  rounded-b-3xl p-8 ">
+        <p class="text-sm">Contact: robert_ziegler@hotmail.com</p>
       </div>
-            <div class="profile-section">
-        <img class="profile-picture" src="https://i.ibb.co/2qg36Nw/Screen-Shot-2024-03-19-at-4-11-29-PM.png" alt="Profile Picture">
-        <h1 class="text-4xl font-bold text-indigo-500 mb-4">Knox Ziegler</h1>
-        <ul class="text-lg text-blue-500 list-disc list-inside">
-          <li class="mb-2">Web Developer/Designer</li>
-         <li> <a class="hover:underline" href="knoxdefenderbender@gmail.com”?subject=Contact Solid Rock">Email:knoxdefenderbender@gmail.com</a>
-         </li> 
-      <a href="https://github.com/KnoxDefender" class="px-8 py-3 bg-blue-500 rounded-full text-white font-semibold hover:bg-blue-800 transition duration-300 hover:shadow-xl mt-6 inline-block">
-      GitHub
-      </a>
-        </ul>
+    </aside>
+   
+    <!-- Main Content -->
+    <main class="flex-1">
+      <div class="flex flex-col items-center justify-center p-8">
+      <div class="z-10 backdrop-blur-md rounded-lg border-2 p-8  border-sky-900 dark:border-white shadow-md  space-y-6 text-center bg-white dark:bg-gray-900 flex flex-col items-center justify-center">
+        <h1 class="text-4xl font-extrabold text-sky-900 dark:text-sky-500 mb-4">Any Questions</h1>
+        <p class="text-base  text-sky-900 dark:text-sky-500 mb-4 leading-relaxed">
+          If you have any questions, select a contact card on the left to get in touch.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <!-- Gallery of Images -->
+          <img src="" alt="" class="gallery-image">
+          <img src="" alt="" class="gallery-image">
+          <img src="" alt="" class="gallery-image">
+        </div>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwDlPSxPqSgTCBjXwNPzCXXznPZlDfhGcDWVvxqjPqCdqcKrmKCCtjZNlDRnKvRLtBrL" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue bg-gradient-to-r from-sky-700 via-sky-500  to-sky-800 transition duration-300 mt-4">Contact</a>
       </div>
-    </div>
+      </div>
+    </main> 
   </div>
+
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
-<style>
-body {
-  background-size: cover;
-  margin: 0;
-  padding: 0 50px 0 50px; /* Added shorthand notation for padding */
-  display: flex;
-  align-items: flex-start; /* Changed align-items property value */
-  justify-content: center;
-}
-
-.profile-picture {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-.profile-section {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
+<style scoped>
+.gallery-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px; /* Add border-radius to images for a nicer look */
 }
 </style>

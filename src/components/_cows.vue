@@ -8,17 +8,17 @@
       </div>
       <nav class="flex-1">
         <ul class="py-4">
-          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 border-gray-900 rounded-lg">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500 border-gray-900 rounded-lg hover:text-sky-200">
            <a class="block" href="#farming">Farming</a>       
           </li>
-          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg hover:text-sky-200">
             <a href="#cows" class="block">Cows</a>
           </li>
-          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg hover:text-sky-200">
             <a href="#bulls" class="block">Bulls</a>
           </li>
-          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg">
-            <a href="#" class="block">The Ziegler Family</a>
+          <li class="px-6 py-2 hover:bg-sky-800  text-sky-900 dark:text-sky-500  border-gray-900 rounded-lg hover:text-sky-200">
+            <a href="#family" class="block">The Ziegler Family</a>
           </li>
         </ul>
       </nav>
@@ -33,7 +33,7 @@
       <div class="flex flex-col items-center justify-center p-8">
         <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center  border-2 border-sky-900 dark:border-white bg-white dark:bg-gray-900 ">
           <h1 class="text-5xl font-extrabold text-sky-900 dark:text-sky-500 mb-4">Ziegler Farms Cows</h1>
-          <p class="text-lg text-sky-900 dark:text-sky-500 mb-4">We take pride, not only in our cattle, but in our crops. We grow Corn, Soy Beans, Wheat, and Rie. </p>
+          <p class="text-lg text-sky-900 dark:text-sky-500 mb-4"></p>
           <div class="gallery-container grid grid-cols-3 gap-4">
             <img src="https://i.ibb.co/wR9hygt/7-BB46-B54-BD74-439-A-BBA4-6-DA3-FEE49164.jpg" alt="" class="gallery-image">
             <img src="https://i.ibb.co/0sJ2537/F4-A3-BD1-C-75-B3-454-F-BEA2-455-D8-B5461-A4.jpg" alt="" class="gallery-image">

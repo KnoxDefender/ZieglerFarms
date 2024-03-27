@@ -30,6 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: 'Arial', sans-serif;
 }
 
 h1 {
@@ -77,6 +78,21 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+
     
+  }
+ 
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .box:hover {
+    transform: scale(1.1); /* Scale the div by 10% */
   }
 }

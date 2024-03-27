@@ -10,6 +10,12 @@ import Cows from './components/_cows.vue'
 import Bulls  from './components/_bulls.vue'
 import Farming  from './components/_farming.vue'
 import Family  from './components/_family.vue'
+import Robert  from './components/robert.vue'
+import Scott  from './components/scott.vue'
+import Knox  from './components/knox.vue'
+
+
+
 
 const routes = [
     { path: '/', component: Home },
@@ -21,6 +27,12 @@ const routes = [
     { path: '/bulls', component: Bulls },
     { path: '/farming', component: Farming },
     { path: '/family', component: Family },
+    { path: '/robert', component: Robert },
+    { path: '/scott', component: Scott },
+    { path: '/knox', component: Knox },
+
+
+
 
 ]
 
