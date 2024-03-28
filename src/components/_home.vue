@@ -5,7 +5,7 @@
 
   </div>
   <div id="app" class="flex flex-col items-center justify-center min-h-screen p-8">
-    <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-sky-100 dark:bg-gray-900">
+    <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-sky-100 dark:bg-sky-900">
       <h1 class="text-5xl font-extrabold text-sky-900 dark:text-sky-300 ">Ziegler Farms</h1>
       <p class="text-lg text-sky-900 dark:text-gray-200">Nestled in the heart of Nebraska, Ziegler Farms stands as a proud symbol of agricultural resilience, spanning four generations of steadfast commitment to the fertile plains of the region. With roots deeply embedded in the rich soil of Nebraska, the Ziegler family has cultivated not just crops but a legacy of sustainable farming practices and the responsible stewardship of their cherished cattle. This enduring connection to the land and the thriving tradition of cattle ranching underscores Ziegler Farms' role as a beacon of Nebraska's agricultural heritage, blending the past with a sustainable future.</p>
       <div class="gallery-container flex flex-wrap justify-center">
