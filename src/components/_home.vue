@@ -5,7 +5,6 @@
         <source src="https://videos.pexels.com/video-files/1649831/1649831-hd_1920_1080_30fps.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-      <div class="text text-5xl font-extrabold text-sky-400 dark:text-sky-700">Ziegler Farms</div>
     </div>
     <div id="app" class="flex flex-col items-center justify-center min-h-screen p-8 mt-96"> <!-- Adjusted margin-top -->
       <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-sky-100 dark:bg-sky-900">

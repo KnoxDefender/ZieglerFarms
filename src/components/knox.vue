@@ -41,9 +41,9 @@
           <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/mail.png" alt="mail"/>
            <a  href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZbjhdpqZLnvFFXZMgmSFCLMXCzSWZCrhBjDkMphWNNFLXktNRrMknZgHNjqjGJjDwBllB" class="hover:text-sky-300 hover:underline  text-sky-900 dark:text-sky-500 mb-4">Email: knoxdefenderbender@gmail.com.com</a>
              
-             <li>
-                <a href="tel:2705272957" class="hover:text-sky-300 hover:underline text-sky-900 dark:text-sky-500 mb-4">Phone: 402 460 8812</a> 
-             </li>
+             <ul>
+                <a href="tel:" class="hover:text-sky-300 hover:underline text-sky-900 dark:text-sky-500 mb-4">Phone: None </a> 
+             </ul>
           <p class="text-base  text-sky-900 dark:text-sky-500 mb-4 leading-relaxed">
             My name is Knox I am a web developer, this is my first website. I prefer Styling over back end, but I will do either. I am always seeking to learn, so if you have any tips or suggestions I would be happy to take you up on them.
           </p>
