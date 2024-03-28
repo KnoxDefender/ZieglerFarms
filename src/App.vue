@@ -5,7 +5,7 @@
     <nav id="navbar" class=" bg-gradient-to-r from-sky-700 via-sky-600 to-sky-900 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
-          <img width="100" height="100" src="https://i.ibb.co/W5SSBND/Screen-Shot-2024-03-28-at-4-08-50-PM.png" alt="road-closure"/> 
+          <img width="80" height="50" src="https://i.ibb.co/W5SSBND/Screen-Shot-2024-03-28-at-4-08-50-PM.png" alt="road-closure"/> 
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
            
             <!-- Mobile menu button-->

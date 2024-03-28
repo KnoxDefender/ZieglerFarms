@@ -3,7 +3,7 @@
     <div class="gallery-container flex w-full ">
       <video preload="none" class="absolute inset-0 z-10 h-full w-full object-contain focus:outline-none" poster="" loop autoplay muted>
         <source src="https://videos.pexels.com/video-files/1649831/1649831-hd_1920_1080_30fps.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+        
       </video>
     </div>
     <div id="app" class="flex flex-col items-center justify-center min-h-screen p-8 mt-96"> <!-- Adjusted margin-top -->
