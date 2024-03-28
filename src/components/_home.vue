@@ -2,7 +2,7 @@
   <div>
     <div class="gallery-container flex w-full ">
       <video preload="none" class="absolute inset-0 z-10 h-full w-full object-contain focus:outline-none" poster="https://v3.cdnpk.net/videvo_files/video/free/2015-09/thumbnails/Combining_2_Videvo_large.jpg" loop autoplay muted>
-        <source src="https://v3.cdnpk.net/videvo_files/video/free/2015-09/large_preview/Combining_2_Videvo.mp4" type="video/mp4">
+        <source src="https://videos.pexels.com/video-files/1649831/1649831-hd_1920_1080_30fps.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
       <div class="text text-5xl font-extrabold text-sky-400 dark:text-sky-700">Ziegler Farms</div>
