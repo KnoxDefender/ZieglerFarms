@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="flex min-h-screen text-white p-8 max-h">
+  <div id="app" class="flex min-h-screen text-white p-8 ">
     <!-- Sidebar -->
     <aside class="flex flex-col bg-sky-100 dark:bg-sky-900 w-64 rounded-3xl">
       <!-- Sidebar content -->
@@ -48,9 +48,9 @@
                     
          
 
-        <p class="text-base  text-sky-900 dark:text-sky-500 mb-4 leading-relaxed">
-          Scott is a 2nd Generation Farmer and rancher who co-owns the farm with his son Robert.
-        </p>
+        <div class="text-base  text-sky-900 dark:text-sky-500 mb-4 leading-relaxed h-100 w-100">
+          Scott is the Ceo. He is also 2nd Generation Farmer and rancher who co-owns the farm with his son Robert.
+        </div>
         
         <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNvwDlPSxPqSgTCBjXwNPzCXXznPZlDfhGcDWVvxqjPqCdqcKrmKCCtjZNlDRnKvRLtBrL" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue bg-gradient-to-r from-sky-700 via-sky-500  to-sky-800 transition duration-300 mt-4">Contact</a>
       </div>

@@ -4,6 +4,7 @@
       <video preload="none" class="absolute inset-0 z-10 h-full w-full object-contain focus:outline-none" poster="" loop autoplay muted>
         <source src="https://videos.pexels.com/video-files/1649831/1649831-hd_1920_1080_30fps.mp4" type="video/mp4">
         
+        
       </video>
     </div>
     <div id="app" class="flex flex-col items-center justify-center min-h-screen p-8 mt-96"> <!-- Adjusted margin-top -->
@@ -11,7 +12,7 @@
         <h1 class="text-5xl font-extrabold text-sky-900 dark:text-sky-300 ">Ziegler Farms</h1>
         <p class="text-lg text-sky-900 dark:text-gray-200">Nestled in the heart of Nebraska, Ziegler Farms stands as a proud symbol of agricultural resilience, spanning four generations of steadfast commitment to the fertile plains of the region. With roots deeply embedded in the rich soil of Nebraska, the Ziegler family has cultivated not just crops but a legacy of sustainable farming practices and the responsible stewardship of their cherished cattle. This enduring connection to the land and the thriving tradition of cattle ranching underscores Ziegler Farms' role as a beacon of Nebraska's agricultural heritage, blending the past with a sustainable future.</p>
         <div class="gallery-container flex flex-wrap justify-center">
-          <img class="p-4 max-w-md h-auto object-cover mx-4 my-4" src="https://i.ibb.co/LdmK6NN/306-CBBD3-5608-41-A1-9-B6-D-A01-CA2985-B64.jpg" alt="Bull">
+          <img class="p-4 max-w-md h-auto object-cover mx-4 my-4" src="https://i.ibb.co/mFQFThF/FB223175-D286-4-B24-88-AB-02-B5764807-CF-1-201-a.jpg" alt="Bull">
           <img class="p-4 max-w-md h-auto object-cover mx-4 my-4" src="" alt="">
         </div>
       </div>

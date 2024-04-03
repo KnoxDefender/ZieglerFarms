@@ -6,7 +6,7 @@
       <!-- Sidebar content -->
       <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
         <img width="90" height="90" src="https://img.icons8.com/3d-fluency/94/user-male-circle.png" alt="user-male-circle"/>
-        <h1 class="text-2xl font-bold">Ziegler Farming</h1>
+        <h1 class="text-2xl font-bold">Contact</h1>
       </div>
       <nav class="flex-1">
         <ul class="py-4">
