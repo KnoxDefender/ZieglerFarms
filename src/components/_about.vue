@@ -33,7 +33,7 @@
    
     <!-- Main Content -->
     <main class="flex-1">
-      <div class="flex flex-col items-center justify-center p-8">
+      <div class=" hidden sm:block flex-col items-center justify-center p-8">
       <div class="z-10 backdrop-blur-md rounded-lg border-2 p-8  border-sky-900 dark:border-white shadow-md  space-y-6 text-center bg-white dark:bg-gray-900 flex flex-col items-center justify-center">
         <h1 class="text-4xl font-extrabold text-sky-900 dark:text-sky-500 mb-4">About the Ziegler Farms</h1>
         <p class="text-base  text-sky-900 dark:text-sky-500 mb-4 leading-relaxed">

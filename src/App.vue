@@ -3,8 +3,10 @@
     <nav id="navbar" class="bg-gradient-to-r from-sky-700 via-sky-600 to-sky-900 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
-          <img width="50" height="50" src="https://i.ibb.co/W5SSBND/Screen-Shot-2024-03-28-at-4-08-50-PM.png" alt="road-closure"/> 
-          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+          <a class="hover:border-gray-900" href="/">
+          <img  class="hover:border-gray-100 border-gray-950 border-10" width="50" height="50" src="https://i.ibb.co/W5SSBND/Screen-Shot-2024-03-28-at-4-08-50-PM.png" alt="road-closure"/> 
+         </a> 
+         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Content of your div here -->
             <!-- Mobile menu button-->
             <button @click="navOpen = !navOpen" type="button" class="relative inline-flex items-center justify-center left-80 rounded-md p-2 text-gray-400 hover:bg-sky-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
