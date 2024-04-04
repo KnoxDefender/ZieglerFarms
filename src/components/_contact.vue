@@ -2,10 +2,10 @@
 
   <div id="app" class="flex min-h-screen text-white p-8 max-h">
     <!-- Sidebar -->
-    <aside class="flex flex-col bg-sky-100 dark:bg-sky-900 w-64 rounded-3xl">
+    <aside class="max-w-80 sm:max-w-80 flex flex-col bg-sky-100 dark:bg-sky-900  rounded-3xl">
       <!-- Sidebar content -->
-      <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
-        <img width="90" height="90" src="https://img.icons8.com/3d-fluency/94/user-male-circle.png" alt="user-male-circle"/>
+      <div class=" flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
+        <img class="hidden sm:block" width="90" height="90" src="https://img.icons8.com/3d-fluency/94/user-male-circle.png" alt="user-male-circle"/>
         <h1 class="text-2xl font-bold">Contact</h1>
       </div>
       <nav class="flex-1">
@@ -33,7 +33,7 @@
     <!-- Main Content -->
     <main class="flex-1">
       <div class="flex flex-col items-center justify-center p-8">
-      <div class="z-10 backdrop-blur-md rounded-lg border-2 p-8  border-sky-900 dark:border-white shadow-md  space-y-6 text-center bg-white dark:bg-gray-900 flex flex-col items-center justify-center">
+      <div class=" hidden sm:block z-10 backdrop-blur-md rounded-lg border-2 p-8  border-sky-900 dark:border-white shadow-md  space-y-6 text-center bg-white dark:bg-gray-900  flex-col items-center justify-center">
         <h1 class="text-4xl font-extrabold text-sky-900 dark:text-sky-500 mb-4">Any Questions</h1>
         <p class="text-base  text-sky-900 dark:text-sky-500 mb-4 leading-relaxed">
           If you have any questions, select a contact card on the left to get in touch.
@@ -49,6 +49,9 @@
       </div>
     </main> 
   </div>
+
+
+         
 
 </template>
 

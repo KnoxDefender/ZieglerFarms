@@ -1,12 +1,12 @@
 <template>
   <div id="app" class="flex min-h-screen text-white p-8 max-h">
     <!-- Sidebar -->
-    <aside class="flex flex-col bg-sky-100 dark:bg-sky-900 w-64 rounded-3xl">
+    <aside class="hidden sm:block  flex-col bg-sky-100 dark:bg-sky-900 w-64 rounded-3xl">
       <!-- Sidebar content -->
-      <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
-               <img width="90" height="90" src="https://img.icons8.com/3d-fluency/94/user-male-circle.png" alt="user-male-circle"/>
+      <div class="flex items-center justify-center  rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
+               <img class="hidden sm:block" width="90" height="90" src="https://img.icons8.com/3d-fluency/94/user-male-circle.png" alt="user-male-circle"/>
 
-        <h1 class="text-2xl font-bold">RObert Ziegler</h1>
+        <h1 class=" font-bold">Robert Ziegler</h1>
       </div>
       <nav class="flex-1">
         <ul class="py-4">
@@ -32,8 +32,8 @@
    
     <!-- Main Content -->
     <main class="flex-1">
-      <div class="flex flex-col items-center justify-center p-8">
-      <div class="z-10 backdrop-blur-md rounded-lg border-2 p-8  border-sky-900 dark:border-white shadow-md  space-y-6 text-center bg-white dark:bg-gray-900 flex flex-col items-center justify-center">
+      <div class=" flex flex-col items-center justify-center p-8">
+      <div class="  z-10 backdrop-blur-md rounded-lg border-2 p-8  border-sky-900 dark:border-white shadow-md  space-y-6 text-center bg-white dark:bg-gray-900 flex flex-col items-center justify-center ">
         <h1 class="text-4xl font-extrabold text-sky-900 dark:text-sky-500 mb-4">Robert Ziegler</h1>
                           <img src="https://i.ibb.co/M6v1hFd/5-A116038-0-A9-E-45-BA-B3-DB-6207-CCB7-EB91-1-201-a.jpg" alt="Knox Ziegler" class="rounded-full w-24 h-24 object-cover border-4 border-sky-900 dark:border-white">
                        <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/mail.png" alt="mail"/>
