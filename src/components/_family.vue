@@ -32,7 +32,7 @@
     <main class="flex-1">
       <div class="flex flex-col items-center justify-center p-8">
         <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center  border-2 border-sky-900 dark:border-white bg-white dark:bg-gray-900 ">
-          <h1 class="text-5xl font-extrabold text-sky-900 dark:text-sky-500 mb-4">Ziegler Farming</h1>
+          <h1 class="text-5xl font-extrabold text-sky-900 dark:text-sky-500 mb-4">Ziegler Family </h1>
           <p class="text-lg text-sky-900 dark:text-sky-500 mb-4">We believe in multi-generational faithfulness, so we not only pass on our knowledge of work, but also our faith. In Genesis God says to take dominion over every living thing that walks on the earth and to be good stewards.  We seek to be good stewards of our land and cattle which the Lord so graciously blessed us with.  </p>
           <div class="gallery-container grid grid-cols-3 gap-4">
             <img src="" alt="" class="gallery-image">

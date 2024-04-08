@@ -13,7 +13,7 @@ import Family  from './components/_family.vue'
 import Robert  from './components/robert.vue'
 import Scott  from './components/scott.vue'
 import Knox  from './components/knox.vue'
-
+import Ziegler  from './components/ziegler.vue'
 
 
 
@@ -30,6 +30,8 @@ const routes = [
     { path: '/robert', component: Robert },
     { path: '/scott', component: Scott },
     { path: '/knox', component: Knox },
+    { path: '/ziegler', component: Ziegler },
+
 
 
 

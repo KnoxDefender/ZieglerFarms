@@ -1,10 +1,10 @@
 <template>
   <div>
-    <nav id="navbar" class="bg-gradient-to-r from-sky-700 via-sky-600 to-sky-900 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+    <nav id="navbar" class="bg-gradient-to-r from-sky-800 via-sky-500 to-sky-800 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
-          <a class="hover:border-gray-900" href="/">
-          <img  class="hover:border-gray-100 border-gray-950 border-10" width="50" height="50" src="https://i.ibb.co/W5SSBND/Screen-Shot-2024-03-28-at-4-08-50-PM.png" alt="road-closure"/> 
+          <a class="hover:border-gray-900" href="#family">
+          <img width="50" height="50" src="https://i.ibb.co/W5SSBND/Screen-Shot-2024-03-28-at-4-08-50-PM.png" alt="road-closure"/> 
          </a> 
          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Content of your div here -->
@@ -40,11 +40,11 @@
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-20 px-80 ">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <router-link to="/" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium ">Home</router-link>
-                <router-link to="contact" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium ">Contact</router-link>
-                <router-link to="about" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium ">About</router-link>
-                <router-link to="more" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium ">More</router-link>
-                <router-link to="help" class="text-gray-300 hover:bg-gradient-to-r from-gray-800 via-sky-900 to-gray-800 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-200">Help</router-link>
+                <router-link to="/" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Home</router-link>
+                <router-link to="contact" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900  ">Contact</router-link>
+                <router-link to="about" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900 ">About</router-link>
+                <router-link to="more" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium  hover:text-sky-900">More</router-link>
+                <router-link to="help" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Help</router-link>
               </div>
             </div>
           </div>
