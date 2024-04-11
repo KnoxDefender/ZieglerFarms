@@ -128,7 +128,7 @@ export default {
 </script>
 
 <style lang="postcss">
-@tailwind base;
+@tailwind base;                                                                                                                                                                                                       
 @tailwind components;
 @tailwind utilities;
 

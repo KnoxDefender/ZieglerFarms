@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import { createApp } from 'vue'
+import { createApp, warn } from 'vue'
 import App from './App.vue'
 import Home from './components/_home.vue'
 import Contact from './components/_contact.vue'
@@ -36,6 +36,7 @@ const routes = [
 
 
 
+
 ]
 
 
@@ -52,6 +53,10 @@ const router = createRouter({
 const app = createApp(App)
 app.use(router)
 app.mount('#app')
+
+process.on('exit', function(){
+//do somthing
+})
 
 
 
