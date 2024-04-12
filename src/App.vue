@@ -1,6 +1,10 @@
 <template>
   <div>
-    <nav id="navbar" class="bg-gradient-to-r from-sky-800 via-sky-500 to-sky-800 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-30 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+    
+    <nav id="navbar" class="bg-gradient-to-r from-sky-800 via-sky-500 to-sky-800 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-20 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+     <div class="flex content justify-center">
+        <h1 class="text-5xl font-extrabold text-sky-200 dark:text-sky-300 ">Ziegler Farms</h1>
+    </div>
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
           <a class="hover:border-gray-900" href="#family">
