@@ -29,7 +29,7 @@ export default {
     },
     talkToDeveloper() {
       // Implement your talk to developer logic here
-      alert("Hello Elon! Let's talk about the future!");
+      alert("You Just donated $100,000 to Ziegler Farms. Thanks");
     }
   }
 }

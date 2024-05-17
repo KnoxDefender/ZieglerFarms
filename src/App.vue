@@ -1,14 +1,15 @@
 <template>
   <div>
     
-    <nav id="navbar" class="bg-gradient-to-r from-sky-800 via-sky-500 to-sky-800 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-20 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
-     <div class="flex content justify-center">
-        <h1 class="text-5xl font-extrabold text-sky-200 dark:text-sky-300 ">Ziegler Farms</h1>
+    <nav id="navbar" class=" pb-1 bg-gradient-to-r from-gray-100 via-gray-100 to-gray-100 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-20 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+    
+       <div class="flex content">
     </div>
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
         <div class="relative flex h-16 items-center justify-between">
-          <a class="hover:border-gray-900" href="#family">
-          <img width="50" height="50" src="https://i.ibb.co/W5SSBND/Screen-Shot-2024-03-28-at-4-08-50-PM.png" alt="road-closure"/> 
+          <a class="hover:border-gray-900" href="#login">
+                 <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFklEQVR4nO2Za0xbZRjHCS9zyTI/DDKnWYwjwYiEZU7NNqfTBSMyTZxhSsYog9ILhQGFRWciMSG6xMTEfdJFUaOA3AqMtvRCC6W0lMsugJMhDqMZgwHjKo6LwPBv3nOgtmuh7YEWP/RN/kk/nfP7ved5nvecNCDAv/zLv/zrf7lITusbJLu1n2S3wftpXSMt/UTaesxzAa/Bt3oeacttDgKbCJztGB8KbAww8Y2Ad2CJYwltlIDrm+3Ka0dU2S3wzFMQdcwj5eocYusncKDgdwR/dM1tYPJAOAq4v0sP5bQgWtaHnJ4lZHUvIb3rPsQ/LSClYx6nr/6NU5fn8G7zDPZ/9xu2ZDe7BCbrF/AAPtuCk/VjOPvrP6vCx7XMItYyjeOme3ihrA9bMs1ugXtfIMuCaNktt+HfNP6F1+unEP5lN0hm0+YL7Mq1rFk2zuBf1U/iZc04tr9n3GSBTDOiins9hn9FO4EX1ePYc6ETJMPkQ4EHLyzRgWea4AR/UDmGiMI/mGs4Ajc7hJuAq50RqSBqn+ME/5x8FHvL7zDXcAa8fgF3alOoBP/yDCf4fVV3EVE6ACJUbK5ArH6EE3xkxTBC83vdELAw8Y6ASIUD+dc5wYeXDWHneXqNGqfAdDzbxjsCEh2CpTXMCespfFjxHWyVVINItE6BSVaTXTZQwGa3MhpB+JXYf7HDM/iSQYR8bAFJrgA5Y3SAtYae1svhKOC6uYhYg6CkEhwquuk2/KN0/vOK2AlkhbUHto+Ji4Ab8DT0BkIFghKLEH6hjTlh1yqbkDwTSEIBSEo1+wRXAbaGHnQZXhNYrldaBgI5AhOKsF1cgj2fmhHxfS/2lg8gorQfoV/1YGdeA7am/IhABv4SSLphVVg2jXbZAAHn08FaAvRGtCSSZQhMKETgyW8RGJfPhv6m4EnlzOglGUaXwGQldHPOGLkIuAC2azab+k2vZyH5VSxwUhnT6My8T6tzAWy0AtungYOAu8A09OYUPFXDznUKmyJn63wlAjkrJlaDpOkZKLIGsF3SOQk4H2f2aQRJ04GIVQgSKLA7twGHv+nCCe0QEsyTEFybQ/KVWbxjGEeMYgDPfNGJR87pEUSFqExqrSPsMjAbgzWeC7iaDvTCdIQKFHjyfBMSG8cg/WUJGTfuI61rEanXFyHsXAC/nX1P4l2ZQ3zbLOJaZhCtHMQTnzQhiDYzfWISvR3sf6kHSaOp4yrgbELQXa9jdnCHVI0EwwjzNeYu/AnLNN42T+Mt0z28JOvDw+lKtrxStcuwLLA1VE6i5yCwWrMtw4fmNSLr53nO8PTUjjFM4ah6FCHndGzTizVWYOY7gSaVppaLgJNxRuEFCjz+oQHZ3Yvrhn+t7k9E6SZxRDWKHWc17KuFSM32xkrEWiaeCzibDEIlQqQqSG8sbBj80doJHNFM4OClYWwTV4EkV7JPwjYiNVcBm8lAG5ZfhXj98IbDH1axrx7hX/eA8IrZcqJPgokKRKjiImAzzmhjCeSI/KzZa/DPy0fxbPUIgt/XgiSWggiUIEJ6ptQwvz0XsB1n9PBJkoHXMOJV+H1VdxGWfxMkvoAtJYGCTYqCg4DtOBPIsfuDWq/DR1YM4+nyYWxLrQThlSyf5mw8F5Do+5lxRidBsgyHLnb4BP6p0iGE5BpAThWC8KtXBDj8wSHSHSNi7W2miU6X4riizyfwYSWDeOzzDpD4H0CSqxh4IlDEeCzgX/7lX/4V4Iv1L/ZBfUR1dgxwAAAAAElFTkSuQmCC">       
+
          </a> 
          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Content of your div here -->
@@ -43,12 +44,12 @@
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-20 px-80 ">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <router-link to="/" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Home</router-link>
-                <router-link to="contact" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900  ">Contact</router-link>
-                <router-link to="about" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900 ">About</router-link>
-                <router-link to="more" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium  hover:text-sky-900">More</router-link>
-                <router-link to="help" class="text-gray-300 hover:bg-gray-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Help</router-link>
+                <!-- Current: "bg-gray-900 text-white", Default: "text-sky-900 dark:text-gray-100 hover:bg-gray-700 hover:text-white" -->
+                <router-link to="/" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Home</router-link>
+                <router-link to="contact" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900  ">Contact</router-link>
+                <router-link to="about" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900 ">About</router-link>
+                <router-link to="more" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300  rounded-md px-3 py-2 text-sm font-medium  hover:text-sky-900">More</router-link>
+                <router-link to="help" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300  rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Help</router-link>
               </div>
             </div>
           </div>
@@ -57,7 +58,7 @@
     </nav>
 
     <!-- Content Section -->
-    <div class="pt-16 bg-gray-400 dark:bg-gray-700">
+    <div class="pt-16 bg-gray-400 dark:bg-gray-800">
       <router-view  />
     </div>
 

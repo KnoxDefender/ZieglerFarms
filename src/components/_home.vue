@@ -1,30 +1,26 @@
 <template>
   <div>
     <div class="gallery-container flex w-full ">
-      <video preload="none" class=" fixed inset-0 z-10 h-full w-full object-contain focus:outline-none" poster="" autoplay loop muted>
-        <source  src="https://videos.pexels.com/video-files/6429464/6429464-hd_1920_1080_30fps.mp4" type="video/mp4">
+      <img  class=" fixed inset-0 z-10 h-full w-full object-contain focus:outline-none" 
+          src="https://images.pexels.com/photos/129539/pexels-photo-129539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" >
         
         
-      </video>
-    </div>
+    
+   </div>
     <div class="flex flex-col items-center w-full">
-      <div id="app" class=" sm:w-1/2   flex flex-col items-center min-h-screen  mt-96 "> <!-- Adjusted margin-top -->
-        <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-gradient-to-r from-sky-800 via-sky-500 to-sky-800 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800">
-          <h1 class="text-5xl font-extrabold text-sky-200 dark:text-sky-300 ">Ziegler Farms</h1>
-          <p class="text-lg text-sky-200 dark:text-gray-200">Nestled in the heart of Nebraska, Ziegler Farms stands as a proud symbol of agricultural resilience, spanning four generations of steadfast commitment to the fertile plains of the region. With roots deeply embedded in the rich soil of Nebraska, the Ziegler family has cultivated not just crops but a legacy of sustainable farming practices and the responsible stewardship of their cherished cattle. This enduring connection to the land and the thriving tradition of cattle ranching underscores Ziegler Farms' role as a beacon of Nebraska's agricultural heritage, blending the past with a sustainable future.</p>
+      <div id="app" class=" sm:w-   flex flex-col items-center min-h-screen  mt-96 "> <!-- Adjusted margin-top -->
+        <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-gradient-to-r from-gray-100 via-gray-100 to-gray-100 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800">
+          <h1 class="text-5xl font-extrabold text-sky-900 dark:text-sky-300 ">Ziegler Farms</h1>
+          <p class="text-lg text-sky-900 dark:text-gray-200">Welcome to Ziegler The Farms Ministry!  We would like to bless you in any way we can. We will Mowe weed wack move things drive you to your destination...you name it we will do our best to bless you in whatever way we can.  </p>
           <div class="gallery-container flex flex-wrap justify-center">
             <img class="p-4 max-w-md h-auto object-cover mx-4 my-4" src="https://i.ibb.co/VBSbZCL/6975-FF88-58-FF-46-F9-A80-E-E8-B8-E6684-D6-B-1-201-a.jpg" alt="Bull">
           </div>
         </div>
       </div>
-      <div id="app" class=" sm:w-1/2 flex flex-col items-center justify-center min-h-screen">
-        <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-gradient-to-r from-sky-800 via-sky-500 to-sky-800 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800">
-          <h1 class="text-5xl font-extrabold text-sky-200 dark:text-gray-300 ">Ziegler Farming</h1>
-          <p class="text-lg text-sky-200 dark:text-gray-200">We take pride, not only in our cattle, but in our crops. We grow Corn, Soy Beans, Wheat, and Rie. </p>
-          <div class="gallery-container flex flex-wrap justify-center">
-            
-            <img class="p-4 max-w-md h-auto object-cover mx-4 my-4" src="https://i.ibb.co/DDYr5b2/4-A422-C71-61-D5-415-A-A7-CF-D419-E210-EC56.jpg" alt="">
-          </div>
+      <div id="app" class=" sm:w-   flex flex-col items-center   "> <!-- Adjusted margin-top -->
+        <div class="z-10 rounded-lg shadow-2xl  space-y- text-center bg-gradient-to-r from-gray-100 via-gray-100 to-gray-100 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800">
+          <p class="text-lg text-sky-900 dark:text-gray-200">Welcome to Ziegler The Farms Ministry!  We would like to bless you in any way we can. We will Mowe weed wack move things drive you to your destination...you name it we will do our best to bless you in whatever way we can.  </p>
+          
         </div>
       </div>
     </div>

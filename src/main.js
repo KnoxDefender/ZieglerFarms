@@ -14,6 +14,10 @@ import Robert  from './components/robert.vue'
 import Scott  from './components/scott.vue'
 import Knox  from './components/knox.vue'
 import Ziegler  from './components/ziegler.vue'
+import Login  from './components/login.vue'
+import Signup  from './components/signup.vue'
+
+
 
 
 
@@ -31,6 +35,10 @@ const routes = [
     { path: '/scott', component: Scott },
     { path: '/knox', component: Knox },
     { path: '/ziegler', component: Ziegler },
+    { path: '/login', component: Login },
+    { path: '/signup', component: Signup },
+
+
 
 
 

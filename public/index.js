@@ -1,9 +1,6 @@
-process.on('')
-
-
 console.log(global.luckyNum);
 global.luckyN ='23';
-console.log(global.luckyNum);
+console.log(global.luckyNum)
 
 process.on('exit', function(){
     //do somthing
@@ -15,11 +12,13 @@ process.on('exit', function(){
  })
  eventemitter.emit('lunch');
  eventemitter.emit('lunch');
- 
- const { readFile} = require( 'fs'). promises;
 
- async function hello() {
- const file = await readFile('./hello.txt', 'utf8');
- }
- const express = require ('express');
+ const express = require('express');
+ const app = express();
+ app.get('/', (request, response )=> {
+
+
+ })
+ const {readFile} = required('fs');
+ 
  

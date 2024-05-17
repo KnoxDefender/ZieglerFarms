@@ -1,9 +1,9 @@
 <template>
-  <div id="app" class="flex min-h-screen text-white p-8 max-h">
+  <div id="app" class="flex min-h-screen text-white p-20 max-h">
     <!-- Sidebar -->
     <aside class="flex flex-col bg-sky-100 dark:bg-sky-900 w-64 rounded-3xl">
       <!-- Sidebar content -->
-      <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
+      <div class="flex items-center justify-center h-20 rounded-t-3xl bg-gradient-to-r from-gray-800 via-gray-500 to-gray-800 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800 ">
         <h1 class="text-2xl font-bold">Ziegler Farming</h1>
       </div>
       <nav class="flex-1">
@@ -26,7 +26,7 @@
         </ul>
       </nav>
       <!-- Contact Info -->
-      <div class="flex items-center justify-center h-16 bg-gradient-to-r from-sky-700 via-blue-600 to-sky-900 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800  rounded-b-3xl p-8 ">
+      <div class="flex items-center justify-center h-16 bg-gradient-to-r from-gray-800 via-gray-500 to-gray-800 dark:from-gray-900 dark:via-sky-800 dark:to-gray-800  rounded-b-3xl p-8 ">
         <p class="text-sm">Contact: robert_ziegler@hotmail.com</p>
       </div>
     </aside>
