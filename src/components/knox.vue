@@ -40,7 +40,7 @@
         </a>
          <h1 class="text-4xl font-extrabold text-sky-900 dark:text-sky-500 mb-4">Knox Ziegler</h1>
           <!-- Profile Picture -->
-          <img src="https://i.ibb.co/5FyCQVF/Photo-on-4-8-24-at-10-24-AM-2.jpg" alt="Knox Ziegler" class="rounded-full w-24 h-24 object-cover border-4 border-sky-900 dark:border-white">
+          <img src="https://i.ibb.co/Bny44DP/2383-CA94-EA28-45-E1-B02-F-8-B160221-DB58-1-201-a.jpg" alt="Knox Ziegler" class="rounded-full w-24 h-24 object-cover border-4 border-sky-900 dark:border-white">
           <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/mail.png" alt="mail"/>
            <a  href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZbjhdpqZLnvFFXZMgmSFCLMXCzSWZCrhBjDkMphWNNFLXktNRrMknZgHNjqjGJjDwBllB" class="hover:text-sky-300 hover:underline  text-sky-900 dark:text-sky-500 mb-4">Email: knoxdefenderbender@gmail.com.com</a>
              

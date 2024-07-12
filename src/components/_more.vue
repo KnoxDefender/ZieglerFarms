@@ -15,7 +15,7 @@ Here's your original code with the improvements included:
       
       <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue active:bg-blue-800 transition duration-300" @click="goBack">Go Back</button>
       
-      <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue active:bg-blue-800 transition duration-300" @click="talkToDeveloper">Talk To Developer</button>
+      <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline-blue active:bg-blue-800 transition duration-300" @click="talkToDeveloper">Go To Home Page</button>
       
     </div>
   </div>

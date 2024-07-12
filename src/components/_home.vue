@@ -2,7 +2,7 @@
   <div>
     <div class="gallery-container flex w-full ">
       <img  class=" fixed inset-0 z-10 h-full w-full object-contain focus:outline-none" 
-          src="https://images.pexels.com/photos/129539/pexels-photo-129539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" >
+          src="https://images.pexels.com/photos/1036148/pexels-photo-1036148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" >
         
         
     
