@@ -1,7 +1,7 @@
 <template>
   <div>
     
-    <nav id="navbar" class=" pb-1 bg-gradient-to-r from-gray-100 via-gray-100 to-gray-100 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-20 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
+    <nav id="navbar" class=" pb-1 bg-gradient-to-r from-gray-700 via-gray-300 to-gray-100 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-20 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
     
        <div class="flex content">
     </div>
@@ -9,7 +9,7 @@
         <div class="relative flex h-16 items-center justify-between">
           <a class="hover:border-gray-900" href="#login">
                  <img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFFklEQVR4nO2Za0xbZRjHCS9zyTI/DDKnWYwjwYiEZU7NNqfTBSMyTZxhSsYog9ILhQGFRWciMSG6xMTEfdJFUaOA3AqMtvRCC6W0lMsugJMhDqMZgwHjKo6LwPBv3nOgtmuh7YEWP/RN/kk/nfP7ved5nvecNCDAv/zLv/zrf7lITusbJLu1n2S3wftpXSMt/UTaesxzAa/Bt3oeacttDgKbCJztGB8KbAww8Y2Ad2CJYwltlIDrm+3Ka0dU2S3wzFMQdcwj5eocYusncKDgdwR/dM1tYPJAOAq4v0sP5bQgWtaHnJ4lZHUvIb3rPsQ/LSClYx6nr/6NU5fn8G7zDPZ/9xu2ZDe7BCbrF/AAPtuCk/VjOPvrP6vCx7XMItYyjeOme3ihrA9bMs1ugXtfIMuCaNktt+HfNP6F1+unEP5lN0hm0+YL7Mq1rFk2zuBf1U/iZc04tr9n3GSBTDOiins9hn9FO4EX1ePYc6ETJMPkQ4EHLyzRgWea4AR/UDmGiMI/mGs4Ajc7hJuAq50RqSBqn+ME/5x8FHvL7zDXcAa8fgF3alOoBP/yDCf4fVV3EVE6ACJUbK5ArH6EE3xkxTBC83vdELAw8Y6ASIUD+dc5wYeXDWHneXqNGqfAdDzbxjsCEh2CpTXMCespfFjxHWyVVINItE6BSVaTXTZQwGa3MhpB+JXYf7HDM/iSQYR8bAFJrgA5Y3SAtYae1svhKOC6uYhYg6CkEhwquuk2/KN0/vOK2AlkhbUHto+Ji4Ab8DT0BkIFghKLEH6hjTlh1yqbkDwTSEIBSEo1+wRXAbaGHnQZXhNYrldaBgI5AhOKsF1cgj2fmhHxfS/2lg8gorQfoV/1YGdeA7am/IhABv4SSLphVVg2jXbZAAHn08FaAvRGtCSSZQhMKETgyW8RGJfPhv6m4EnlzOglGUaXwGQldHPOGLkIuAC2azab+k2vZyH5VSxwUhnT6My8T6tzAWy0AtungYOAu8A09OYUPFXDznUKmyJn63wlAjkrJlaDpOkZKLIGsF3SOQk4H2f2aQRJ04GIVQgSKLA7twGHv+nCCe0QEsyTEFybQ/KVWbxjGEeMYgDPfNGJR87pEUSFqExqrSPsMjAbgzWeC7iaDvTCdIQKFHjyfBMSG8cg/WUJGTfuI61rEanXFyHsXAC/nX1P4l2ZQ3zbLOJaZhCtHMQTnzQhiDYzfWISvR3sf6kHSaOp4yrgbELQXa9jdnCHVI0EwwjzNeYu/AnLNN42T+Mt0z28JOvDw+lKtrxStcuwLLA1VE6i5yCwWrMtw4fmNSLr53nO8PTUjjFM4ah6FCHndGzTizVWYOY7gSaVppaLgJNxRuEFCjz+oQHZ3Yvrhn+t7k9E6SZxRDWKHWc17KuFSM32xkrEWiaeCzibDEIlQqQqSG8sbBj80doJHNFM4OClYWwTV4EkV7JPwjYiNVcBm8lAG5ZfhXj98IbDH1axrx7hX/eA8IrZcqJPgokKRKjiImAzzmhjCeSI/KzZa/DPy0fxbPUIgt/XgiSWggiUIEJ6ptQwvz0XsB1n9PBJkoHXMOJV+H1VdxGWfxMkvoAtJYGCTYqCg4DtOBPIsfuDWq/DR1YM4+nyYWxLrQThlSyf5mw8F5Do+5lxRidBsgyHLnb4BP6p0iGE5BpAThWC8KtXBDj8wSHSHSNi7W2miU6X4riizyfwYSWDeOzzDpD4H0CSqxh4IlDEeCzgX/7lX/4V4Iv1L/ZBfUR1dgxwAAAAAElFTkSuQmCC">       
-
+          <a class="text-sky-300" href="">Login</a>
          </a> 
          <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Content of your div here -->
