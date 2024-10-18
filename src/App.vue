@@ -1,8 +1,9 @@
 <template>
+
+
   <div>
     
-    <nav id="navbar" class=" pb-1 bg-gradient-to-r from-gray-700 via-gray-300 to-gray-100 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-20 top-0 mb-5 p-1 text-lg transition-transform duration-300 transform">
-    
+    <nav id="navbar" class=" pb-1 bg-gradient-to-r from-gray-700 via-gray-300 to-gray-100 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800 fixed left-0 w-full z-20 top-0 mb-5 p-1 texyarn t-lg transition-transform duration-300 transform">
        <div class="flex content">
     </div>
       <div class="mx-auto max-w-8xl px-2 sm:px-6 lg:px-8">
@@ -45,11 +46,10 @@
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-20 px-80 ">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-sky-900 dark:text-gray-100 hover:bg-gray-700 hover:text-white" -->
-                <router-link to="/" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Home</router-link>
-                <router-link to="contact" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900  ">Contact</router-link>
-                <router-link to="about" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900 ">About</router-link>
-                <router-link to="more" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300  rounded-md px-3 py-2 text-sm font-medium  hover:text-sky-900">More</router-link>
-                <router-link to="help" class="text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300  rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Help</router-link>
+                <router-link to="/" class="hover:rotate-scale h-8 w-15 text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Home</router-link>
+                <router-link to="contact" class="hover:rotate-scale h-8 w-15 text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300 rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900"> Contact</router-link>                
+                <router-link to="more" class="hover:rotate-scale h-8 w-15 text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300  rounded-md px-3 py-2 text-sm font-medium  hover:text-sky-900">More</router-link>
+                <router-link to="help" class="hover:rotate-scale h-8 w-15 text-sky-900 dark:text-gray-100 hover:dark:text-sky-100 hover:dark:bg-sky-700 hover:bg-sky-300  rounded-md px-3 py-2 text-sm font-medium hover:text-sky-900">Help</router-link>
               </div>
             </div>
           </div>
@@ -70,9 +70,17 @@
 </template>
 
 <script>
+
+import { useDark, useToggle } from '@vueuse/core'
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
+
+
 export default {
   data() {
+    
     return {
+      
       navOpen: false,
       selectedPage: 'about',
       pages: ['Home', 'About', 'Contact', 'More', 'Help', 'Cows'],
@@ -80,6 +88,7 @@ export default {
     };
   },
   methods: {
+    
     toggleContent() {
       this.contactContentVisible = !this.contactContentVisible; // Updated method
       this.navOpen = false; // Close the mobile menu
@@ -132,6 +141,7 @@ export default {
 };
 </script>
 
+ 
 <style lang="postcss">
 @tailwind base;                                                                                                                                                                                                       
 @tailwind components;
@@ -150,5 +160,19 @@ export default {
 
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+
+@keyframes rotateScale {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(20deg) scale(1.1); /* Rotate by 15 degrees and scale up by 1.1 */
+  }
+}
+
+/* Apply the animation on hover */
+.hover\:rotate-scale:hover {
+  animation: rotateScale 0.3s ease-in-out forwards; /* Smooth 0.3s animation */
 }
 </style>

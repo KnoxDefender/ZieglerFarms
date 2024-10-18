@@ -1,5 +1,6 @@
 <template>
 
+
   <div>
 
     <div class="gallery-container flex w-full ">
@@ -9,6 +10,7 @@
         
     
    </div>
+   
     <div class="flex flex-col items-center w-full">
       <div id="app" class=" sm:w-   flex flex-col items-center min-h-screen  mt-96 "> <!-- Adjusted margin-top -->
         <div class="z-10 rounded-lg shadow-2xl p-8 space-y- text-center bg-gradient-to-r from-gray-400 via-gray-300 to-gray-100 dark:from-gray-900 dark:via-sky-900 dark:to-gray-800">
@@ -31,6 +33,10 @@
 </template>
 
 <script>
+import { useDark, useToggle } from '@vueuse/core'
+const isDark = useDark()
+const toggleDark = useToggle(isDark)
+
 export default {
 }
 </script>
